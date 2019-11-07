@@ -6,7 +6,7 @@
 
 <p>Ingredients:</p><br>
 <%= f.fields_for :ingredients do |ing| %>
-<%= ing.label %>
+
 <%= ing.label :name %>
 <%= ing.text_field :name %><br>
 <%= ing.label :quantity%>
